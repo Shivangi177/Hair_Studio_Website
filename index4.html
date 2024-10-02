@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HairStudio Website|Html,CSS</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <section id="home">
+        <div class="navbar">
+            <div class="image">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="menubtn">
+                <img src="menu.gif" id="menu">
+                </div>
+            <div class="menuicon" id="me">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#features">FEATURES</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#testimonials">TESTIMONIALS</a></li>
+                    <li><a href="#meet">MEET US</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="content">
+            <h1>Hair Studio</h1>
+            <p><i>Style Your Hair is Style Your Life</i></p>
+            <div class="same">
+            <a href="#"><button class="btn btn1">Find out</button></a>
+            <a href=""><button class="btn  btn2">Read More</button></a>
+            </div>
+        </div>
+    </section>
+    <script>
+         let menubtn=document.getElementsByClassName("menubtn");
+         let menuicon=document.getElementsByClassName("menuicon");
+         let menu=document.getElementById("menu");
+      menubtn.addEventListner('mouseup',function(){
+        menuicon.classList.toggle('active'); 
+       });
+       /*menu.onclick=function(){
+            menuicon.classList.toggle("active");
+       }*/
+    </script>
+
+    
+
+    <!--Features -->
+    <section id="features">
+        <div class="text">
+            <p>FEATURES</p>
+            <h4>Why Choose Us</h4>
+        </div>
+        <div class="column">
+            <div class="text2">
+                <h2>Experienced Staff</h2>
+                <div class="feature-desc">
+                <a href="#"><i class="fa fa-shield"></i></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum distinctio 
+                ullam magni? Quidem repellat rerum aspernatur nemo dolor.</p>
+                </div>
+
+
+                <h2>Pre Booking Online</h2>
+                <div class="feature-desc">
+                <a href="#"><i class="fa fa-check-square-o"></i></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum distinctio 
+                ullam magni? Quidem repellat rerum aspernatur nemo dolor.</p>
+                </div>
+
+
+                <h2>Affordable Cost</h2>
+                <div class="feature-desc">
+                <a href="#"><i class="fa fa-inr"></i></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum distinctio 
+                ullam magni? Quidem repellat rerum aspernatur nemo dolor.</p>
+                </div>
+            </div>
+
+            <div class="image1">
+                <img src="barber-man.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!--Services-->
+    <section id="services">
+        <div class="text">
+            <p>SERVICES</p>
+            <h4>We Provide Better</h4>
+        </div>
+        <div class="image2">
+            <div class="single-service">
+                <img src="pic-1.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="services-desc">
+                    <h2>Hair Styling</h2>
+                    <p>Hair dressing might also include the use of hair
+                     product to add texture, shine, curl, volume or hold to a particular style.</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="pic-2.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="services-desc">
+                    <h2>Beard Trim</h2>
+                    <p>The best way to trim your beard is to start with the
+                     longest hair length and bring it down gradually.</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="pic-3.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="services-desc">
+                    <h2>Hair Cut</h2>
+                    <p>A hairstyle, hairdo, haircut or coiffure refers to the styling of hair,
+                       usually on the human head but sometimes on the face or body. </p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="pic-4.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="services-desc">
+                    <h2>Dry Shampoo</h2>
+                    <p>Dry shampoo is a product to absorb the dirt, oil and 
+                      grease of your scalp without washing it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Testimonals-->
+    <section id="testimonials">
+        <div class="text">
+            <p>TESTIMONIALS</p>
+            <h4>What Client Says</h4>
+        </div>
+        <div class="card-sec">
+            <div class="card">
+                <div class="ima">
+                    <img src="img-1.jpg" alt="">
+                    <div class="sub">
+                    <div class="text-small">
+                        <h2>KEN NORMAN</h2>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                <small>@kennorman</small>
+                </div>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, 
+                    vel tenetur? Tempore, nulla impedit ut excepturi alias asperiores rem nihil cumque soluta. 
+                    Vitae natus asperiores ut quibusdam eveniet perspiciatis itaque?</p>
+            </div>
+            <div class="card">
+                <div class="ima">
+                    <img src="img-2.jpg" alt="">
+                    <div class="sub">
+                    <div class="text-small">
+                        <h2>LAIRA KARIAN</h2>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                <small>@lairakarian</small>
+                </div>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias consequuntur iusto ad magni cumque voluptate qui sed, 
+                    harum sunt nobis illo fugit assumenda expedita, laudantium rem ea nemo, libero quaerat.</p>
+            </div>
+            <div class="card">
+                <div class="ima">
+                    <img src="img-3.jpg" alt="">
+                    <div class="sub">
+                    <div class="text-small">
+                        <h2>RICKY DANIAL</h2>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                <small>@rickydanial</small>
+                </div>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias consequuntur iusto ad magni cumque voluptate qui sed, 
+                    harum sunt nobis illo fugit assumenda expedita, laudantium rem ea nemo, libero quaerat.</p>
+            </div>
+        </div>
+    </section>
+
+
+   <section id="meet">
+    <img src="footer.png" class="footer-img">
+    <div class="text1">
+        <p>CONTACT</p>
+        <h4>Visit Shop Today</h4>
+    </div>
+    <div class="sides">
+    <div class="text-left">
+        <h2>Opening Hours</h2>
+            <p><i class="fa fa-clock-o"></i>Monday to Friday-9am to 9pm</p>
+            <p><i class="fa fa-clock-o"></i>Saturday and Sunday-8am to 11pm</p>
+        </div>
+        <div class="text-right">
+            <h2>Get In Touch</h2>
+                <p>#30 abc Colony xyz Vihar in<i class="fa fa-map-marker"></i></p>
+                <p>example@gmail.com<i class="fa fa-send"></i></p>
+                <p>+91 7078223495<i class="fa fa-phone"></i></p>  
+            </div>
+    </div>
+    <ul class="social-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube"></i>
+    </ul>
+    <div class="footer">
+        <p>copyright @ 2024 Easy tutorial Youtube Channel</p>
+    </div>
+   </section>
+</body>
+</html>
